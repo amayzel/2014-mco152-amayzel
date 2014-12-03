@@ -2,3 +2,5 @@
 ===================
 
 College Class- Computer Methodology (Prof. Scwimmer)
+
+This is the repo that I will store all my code for Methodology.
