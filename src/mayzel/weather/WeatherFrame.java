@@ -27,7 +27,14 @@ public class WeatherFrame extends JFrame {
 
 		Container container = getContentPane();
 		BorderLayout layout = new BorderLayout();
-		container.setLayout(layout);
+		
+		JLabel label  = new JLabel("Hello World");
+		container.add(label);
+		
+		WeatherDownloadThread thread = new WeatherDownloadThread();
+		thread.start();
+		
+		/*container.setLayout(layout);
 		container.setBackground(Color.BLUE);
 
 		Container northContainer = new Container();
@@ -79,7 +86,7 @@ public class WeatherFrame extends JFrame {
 		label3.setBackground(Color.GREEN);
 		label3.setOpaque(true);
 
-		container.add(label3, BorderLayout.EAST);
+		container.add(label3, BorderLayout.EAST);*/
 
 	}
 

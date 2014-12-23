@@ -4,9 +4,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
+
+import javax.swing.JFrame;
+
 import com.google.gson.Gson;
 
-public class CurrentWeather {
+public class CurrentWeather extends JFrame{
 
 	public static void main(String[] args) throws IOException {
 
