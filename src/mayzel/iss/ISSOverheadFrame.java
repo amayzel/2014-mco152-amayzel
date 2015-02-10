@@ -19,8 +19,6 @@ import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.JTextField;
 
-import mayzel.earthquakes.Earthquakes;
-
 import com.google.gson.Gson;
 
 public class ISSOverheadFrame extends JFrame {
